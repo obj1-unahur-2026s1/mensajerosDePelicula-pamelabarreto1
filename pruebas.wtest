@@ -1,0 +1,11 @@
+import mensajeros.*
+
+
+test "Que roberto (90kg) puede llevar un paquete que está pago en un camión que tiene un acoplado." {
+  roberto.cambiarPeso(90)
+  
+  
+  
+  assert.that(puenteBrooklyn.puedePasar(roberto))
+}
+
