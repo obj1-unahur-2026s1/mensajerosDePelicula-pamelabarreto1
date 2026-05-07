@@ -9,3 +9,6 @@ test "Que roberto (90kg) puede llevar un paquete que está pago en un camión qu
   assert.that(puenteBrooklyn.puedePasar(roberto))
 }
 
+test "Que neo con crédito no puede llevar un paquete que no está pago a la matrix." {
+  assert.notThat()
+}
